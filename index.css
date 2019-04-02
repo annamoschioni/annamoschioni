@@ -123,7 +123,7 @@ Then I used the id's to specify what is different for every panel:
 #popup-exquisite {
   position: absolute;
   top: 10vw;
-  left: 15vw;
+  left: 20vw;
   width: 33vw;
 }
 
