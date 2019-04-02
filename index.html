@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- head section -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Anna Moschioni</title>
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" type="image/png" href="images/icon.png"/>
+
+  <script>
+    function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    m = checkTime(m);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m;
+    var t = setTimeout(startTime, 500);
+}
+    function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+</head>
+
+<body>
+
+  <img class="background" src="images/background.jpg"/>
+
+
+  <div class="container">
+
+      <div class="content">
+            <div id="unstructuredstructures" class="icon folder">Unstructured Structures</div>
+        		<div id="calendar" class="icon folder">Calendar</div>
+        		<div id="emiliemuller" class="icon folder">Interview with Emilie Muller</div>
+        		<div id="postcards" class="icon folder">A collection <br>of Postcards</div>
+        		<div id="loveinthetimeofcholera" class="icon folder">Love in the Time of Cholera</div>
+        		<div id="tele" class="icon folder">Televangelism: Frauds with God's Blessing</div>
+        		<div id="annadiva" class="icon folder">Interviews by AnnaDiva</div>
+        		<div id="almanac" class="icon folder">Almanac of Communication Tools</div>
+        		<div id="irancomicbook" class="icon folder">Iran Comic Book</div>
+            <div id="trudy" class="icon folder">Trudy Dorrepaal Lecture Poster</div>
+            <div id="exquisite" class="icon folder">Exquisite Love Stories</div>
+            <div id="charm" class="icon folder">The Obstructive Charm of the Unfamiliar</div>
+            <div id="royalchess" class="icon folder">Royal Chess Club Poster</div>
+            <div id="ariane" class="icon folder">A conversation about Roald Dahl... (etc)</div>
+            <div id="pina" class="icon folder">Carnations,<br>by Pina Baush</div>
+            <div id="francis" class="icon folder">Cuentos patrióticos,<br>by Francis Alÿs</div>
+            <div id="tapestry" class="icon folder">Ch. II–Claudine,<br>by Ariane Toussaint</div>
+            <div id="tools" class="icon folder">tools.FM</div>
+            <div id="gloves" class="icon folder">In my <br>free time...</div>
+            <div id="ar" class="icon folder">Bring your raincoat!</div>
+            <div id="lapsang" class="icon folder">Lapsang,<br>A performance</div>
+            <div id="sexes" class="icon folder">Realising Sexes</div>
+            <div id="things" class="icon folder">Things I found,<br>things I like</div>
+
+
+
+      </div>
+
+            <div class="popup" id="popup-charm">
+
+              <div class="about-text">
+                The Obstructive Charm of the Unfamiliar
+              <br>
+              <br>
+              Most of the images of African people living in tribes are framed by the far removed Western-perspective, which depicts them almost exclusively for the Western world’s consumption. Despite the hypnotic and fascinating charm of the images, these representations let us perceive different African tribes as a homogenous group with general characterizations and features. Our eyes linger on the unfamiliar objects, the colorful clothes, the unusual jewelries: all symbols of what stand outside the conventional or established understandings we normally experience. Our perception on them is the involuntarily answer we give to what is unknown, since the “Other” has always represented a source of fear and fascination; an emblem of difference demonized and romanticized. The ‘exoticism’ becomes the distracting and dividing element on which most of our focus of attention lays. The portraits, no matter their quality and intrinsic beauty, tend to reduce the characters of the pictures as mere displays of exoticism, ‘objects’ of fascination to observe from a distance. The publication is an attempt to investigate and visually illustrate such phenomenon.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>Publication</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagescharm/1.jpg" data-desc="" />
+                      <img data-img="imagescharm/2.jpg" data-desc="" />
+                      <img data-img="imagescharm/3.jpg" data-desc="" />
+                      <img data-img="imagescharm/4.jpg" data-desc="" />
+                      <img data-img="imagescharm/5.jpg" data-desc="" />
+                      <img data-img="imagescharm/6.jpg" data-desc="" />
+                      <img data-img="imagescharm/7.jpg" data-desc="" />
+                      <img data-img="imagescharm/8.jpg" data-desc="" />
+                      <img data-img="imagescharm/9.jpg" data-desc="" />
+                      <img data-img="imagescharm/10.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+            </div>
+
+
+            <div class="popup" id="popup-exquisite">
+
+              <div class="about-text">
+                Exquisite Love Stories
+                <br>
+                <br>
+              Short Love Stories based on a very simple structure: her/his name, his/her name, her/his job, where are they, what are they doing, what does he/she say to her/him, what does she/he say to him/her, what do the others say, epilogue. Fold the paper and pass it around.
+              <br>
+              <br>
+              Thanks to the exquisite contribution of Brechje, Carolina, Jan, Louana, Poppy, Ranjani, Roslana, Samantha, Verena.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2018<br>Pocket size book</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagesex/scan.jpg" data-desc="" />
+                      <img data-img="imagesex/scan10.jpg" data-desc="" />
+                      <img data-img="imagesex/scan11.jpg" data-desc="" />
+                      <img data-img="imagesex/scan12.jpg" data-desc="" />
+                      <img data-img="imagesex/scan13.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+            </div>
+
+
+
+            <div class="popup" id="popup-calendar">
+
+              <div class="about-text">
+              Thematic Calendar
+              <br>
+              <br>
+              365 pages on hands, faces, texts, illustrations, colors, geometrical shapes, nature, historical pictures, handwriting, textures, flags and  numbers.
+              <br>
+              <br>
+              Project done in collaboration with Seojeong Yoon, Vincent Rheinberger, Ruben Visser and Mahtab Zamanifar.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>?</small>
+              </div>
+
+            	<img class="artwork" data-img="images/ezgif.com-apng-maker.png"/>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+               <div class="about-project-gif">About</div>
+            </div>
+
+
+            <div class="popup" id="popup-trudy">
+            <div class="about-text">
+              Trudy Dorrepaal's lecture
+              <br>
+              <br>
+              Posters for Trudy Dorrepaal's lecture on paper, held at the Graphic Design Department (KABK) on November 3rd 2017.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>A3 size Posters</small>
+              </div>
+
+               <img class="artwork" data-img="images/trudy.gif"/>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+               <div class="about-project-gif">About</div>
+
+            </div>
+
+            <div class="popup" id="popup-royalchess">
+            <div class="about-text">
+             Rotational Mass
+             <br>
+             <br>
+              Posters for the 25th Edition of The Royal Chess Club. Organized by the Graphic Design Department and Held at <a href="https://www.stroom.nl/" target="_blank">Stroom</a> on May 31st 2018. Talks by me, Louis Braddock Clarke and Katarina Gaidamaka.
+              <br>
+              <br>
+              Posters done in collaboration with Louis Braddock Clarke.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2018<br>A1 size Silkscreen Posters</small>
+              </div>
+
+               <img class="artwork" data-img="images/royal.gif"/>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+               <div class="about-project-gif">About</div>
+
+            </div>
+
+            <div class="popup" id="popup-things">
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="images/favourite.jpg" data-desc="" />
+                      <img data-img="images/lamp.jpg" data-desc="" />
+                      <img data-img="images/horses.jpg" data-desc="" />
+                      <img data-img="images/bread.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+            </div>
+
+            <div class="popup" id="popup-ar">
+            <div class="about-text">
+             Commodus Transhumanist Battle
+             <br>
+             <br>
+              Poster for a fictional event that never happened at The Royal
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2018<br>A1 size Silkscreen Posters</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="images/posterAR.jpg" data-desc="" />
+                      <img data-img="images/yessica.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+            </div>
+
+
+        		<div class="popup" id="popup-irancomicbook">
+
+              <div class="about-text">
+                <a href="https://www.instagram.com/theornamentaldivine/?hl=en" target="_blank">@theornamentaldivine</a> goes to Persia
+                <br>
+                <br>
+              An image-based comic book narrating my experiences during 10 days in Iran. The magazine illustrates the cities of Teheran, Yazd, Persepolis, Esphahan, Kashan and Qom.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>Illustrated Zine</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagesiran/iran.jpg" data-desc="" />
+                      <img data-img="imagesiran/iran1.jpg" data-desc="" />
+                      <img data-img="imagesiran/iran2.jpg" data-desc="" />
+                      <img data-img="imagesiran/iran3.jpg" data-desc="" />
+                      <img data-img="imagesiran/iran4.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+        		</div>
+
+
+        		<div class="popup" id="popup-emiliemuller">
+
+            <div class="about-text">
+              Interview with Emilie Muller
+              <br>
+              <br>
+              Designed script of the short movie <a href="https://www.youtube.com/watch?v=dGAPpSjRehU" target="_blank">Emilie Muller</a> by Yvon Marciano (1994), together with additional related notes made by me.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>Publication</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagesemilie/emiliemuller.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller1.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller3.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller5.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller7.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller8.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller9.jpg" data-desc="" />
+                      <img data-img="imagesemilie/emiliemuller10.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+            </div>
+
+
+        		<div class="popup" id="popup-postcards">
+
+            <div class="about-text">
+              A collection of postcards
+              <br>
+              <br>
+              A while ago I sent out some postcards to my friends, asking them a few things I wanted to know about them. I put together their beautiful answers in a book.<br>You can listen to their answers <a href="https://soundcloud.com/user-999703099/a-collection-of-postcards" target="_blank">here</a>. 
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>Pocket size publication</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagespostcards/1.jpg" data-desc="" />
+                      <img data-img="imagespostcards/4.jpg" data-desc="" />
+                      <img data-img="imagespostcards/6.jpg" data-desc="" />
+                      <img data-img="imagespostcards/7.jpg" data-desc="" />
+                      <img data-img="imagespostcards/10.jpg" data-desc="" />
+                      <img data-img="imagespostcards/11.jpg" data-desc="" />
+                      <img data-img="imagespostcards/12.jpg" data-desc="" />
+                      <img data-img="imagespostcards/13.jpg" data-desc="" />
+                      <img data-img="imagespostcards/14.jpg" data-desc="" />
+                      <img data-img="imagespostcards/15.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+        		</div>
+
+
+
+        		<div class="popup" id="popup-loveinthetimeofcholera">
+
+            <div class="about-text">
+              Love in the Time of Cholera
+              <br>
+              <br>
+              Re-design of Love in the Time of Cholera by Gabriel Garcìa Màrquez in a paperback format.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>Paperback</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagescholera/lovecholera.jpg" data-desc="" />
+                      <img data-img="imagescholera/lovecholera1.jpg" data-desc="" />
+                      <img data-img="imagescholera/lovecholera2.jpg" data-desc="" />
+                      <img data-img="imagescholera/lovecholera3.jpg" data-desc="" />
+
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+        		</div>
+
+
+        		<div class="popup" id="popup-unstructuredstructures">
+
+              <div class="about-text">
+                Unstructured Structures
+                <br>
+                <br>
+              By exploring different aspect of our civilizations, cultures and beliefs this hybrid publication attempts to uncover the invisible structures our bodies live in. Ethical and cultural structures have always had a major role in the way we perceive ourselves and the way we want to be seen. <br>'Unstructured Structures' explores the reasons why people feel the need to create such strict guidelines in order to feel accepted.
+              <br>
+              <br>
+              Project done in collaboration with <a href="http://zahari.nl" target="_blank">Zahari Dimitrov</a>.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2016<br>Publication</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagesstructures/0.jpg" data-desc="" />
+                      <img data-img="imagesstructures/1.jpg" data-desc="" />
+                      <img data-img="imagesstructures/6.jpg" data-desc="" />
+                      <img data-img="imagesstructures/0.1.jpg" data-desc="" />
+                      <img data-img="imagesstructures/3.jpg" data-desc="" />
+                      <img data-img="imagesstructures/7.jpg" data-desc="" />
+                      <img data-img="imagesstructures/5.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+        		</div>
+
+
+        		<div class="popup" id="popup-annadiva">
+
+            <div class="about-text">
+              Interviewing Alteregos
+              <br>
+              <br>
+              Interviews done by my alterego to some of my classmates's real identities.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2017<br>Pocket size publication</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagesannadiva/annadiva.jpg" data-desc="" />
+                      <img data-img="imagesannadiva/annadiva3.jpg" data-desc="" />
+                      <img data-img="imagesannadiva/annadiva2.jpg" data-desc="" />
+                      <img data-img="imagesannadiva/annadiva4.jpg" data-desc="" />
+                      <img data-img="imagesannadiva/annadiva5.jpg" data-desc="" />
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+        		</div>
+
+
+        		<div class="popup" id="popup-tele">
+
+              <div class="about-text">
+              Televangelism: Frauds with God's Blessing
+               <br>
+               <br>
+               A visual study on the American phenomenon of Televangelism.
+               <br>
+               <br>
+              <small>Royal Academy of Art, 2018<br>Publication</small>
+           </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagestele/1.jpg" data-desc="" />
+                      <img data-img="imagestele/9.jpg" data-desc="" />
+                      <img data-img="imagestele/8.jpg" data-desc="" />
+                      <img data-img="imagestele/4.jpg" data-desc="" />
+                      <img data-img="imagestele/5.jpg" data-desc="" />
+                      <img data-img="imagestele/6.jpg" data-desc="" />
+                      <img data-img="imagestele/7.jpg" data-desc="" />
+                      <img data-img="imagestele/3.jpg" data-desc="" />
+
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+        		</div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+
+          </div>
+
+
+          <div class="popup" id="popup-ariane">
+
+            <div class="about-text">
+              A conversation about Roald Dahl, the struggle of archiving, Jonathan's armchairs and stealing pots in the cemeteries.<br>
+             <br>
+             Interviewing my friend Ariane Toussaint about her sketchbooks on the dinner table.
+             <br>
+             <br>
+            <small>Royal Academy of Art, 2018<br>Publication</small>
+         </div>
+            <div class="slideeshow">
+
+                <div class="content">
+                    <!-- the list of slides in this slideshow (this is not visible) -->
+                    <div class="slideelist">
+                    <img data-img="imagesariane/1.jpg" data-desc="" />
+                    <img data-img="imagesariane/2.jpg" data-desc="" />
+                    <img data-img="imagesariane/3.jpg" data-desc="" />
+                    <img data-img="imagesariane/4.jpg" data-desc="" />
+                    <img data-img="imagesariane/5.jpg" data-desc="" />
+                    <img data-img="imagesariane/6.jpg" data-desc="" />
+
+                </div>
+                 <!-- the visble slide with the image -->
+                <div class="slidee">
+                    <img src="#" />
+                </div>
+
+              </div>
+      <!-- arrow to go left -->
+      <div class="arrow arrow-left">
+      </div>
+      <!-- arrow to go right -->
+      <div class="arrow arrow-right">
+      </div>
+
+          </div>
+              <div class="draghand"></div>
+              <div class="close-button"></div>
+              <div class="about-project">About</div>
+
+
+        </div>
+
+        <div class="popup" id="popup-sexes">
+
+             <div class="about-text">
+               Realising Sexes–Intersecting Conversations on Intersex
+               <br>
+               <br>
+               Intersex isn’t selective, it occurs consistently and everywhere. But even though there is a sense of universality in the fact that sex varies, there is definitely not one unified discourse on the topic. In fact, the subject of intersex is still largely unknown territory to most people. The information that is public and available tends to belong to one of two genres: medical papers, in which any definitive conclusion seem impossible while keeping it objective, and personal accounts delivered as activism within NGO articles. ‘Realising Sexes’ tries to bridge the gap and position itself between the subjective and factual. It is an effort to open up a space for intersecting discourses on this shared subject of intersex. By inviting voices from different fields and juxtaposing their contributions, a dialogue arises that hasn’t necessarily happened in physical space on a topic that is both social and medical, sensitive and urgent.
+               <br>
+               <br>
+               Project in collaboration with <a href="https://www.nicolaischmelling.com/" target="_blank">Nicolai Schmelling</a>.
+             <br>
+             <br>
+             <small>Royal Academy of Art, ongoing project<br>Publication</small>
+             </div>
+             <div class="slideeshow">
+
+                 <div class="content">
+                     <!-- the list of slides in this slideshow (this is not visible) -->
+                     <div class="slideelist">
+                     <img data-img="imagessex/2.jpg" data-desc="" />
+                     <img data-img="imagessex/6.jpg" data-desc="" />
+                     <img data-img="imagessex/5.jpg" data-desc="" />
+                     <img data-img="imagessex/4.jpg" data-desc="" />
+                     <img data-img="imagessex/3.jpg" data-desc="" />
+                     <img data-img="imagessex/6.jpg" data-desc="" />
+
+
+                 </div>
+                  <!-- the visble slide with the image -->
+                 <div class="slidee">
+                     <img src="#" />
+                 </div>
+
+               </div>
+       <!-- arrow to go left -->
+       <div class="arrow arrow-left">
+       </div>
+       <!-- arrow to go right -->
+       <div class="arrow arrow-right">
+       </div>
+
+           </div>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+               <div class="about-project">About</div>
+
+          </div>
+
+          <div class="popup" id="popup-tapestry">
+
+            <div class="about-text">
+              The Great Tapestry Where We Come From<br>
+              Chapter 2–Claudine<br>
+              A story about family, hoarding, love and loneliness
+              <br>
+              <br>
+              <a href="http://arianetoussaint.kabkfinearts.nl/index.php/photography/chapter-2---claudine/?fbclid=IwAR0W3yZ3HLbeQaEU-f2IbOqkkWWEW5dBGQYMR-WijFUvhdP2RDWL-Zbcjqk" target="_blank">A project by Ariane Toussaint</a>
+            <br>
+            <br>
+            Photo novel
+            A collab
+
+            Concept, photography and text by Ariane Toussaint
+            Design by Anna Moschioni
+            <br>
+            <br>
+            <small>Royal Academy of Art, 2019<br>Book</small>
+            </div>
+            <div class="slideeshow">
+
+                <div class="content">
+                    <!-- the list of slides in this slideshow (this is not visible) -->
+                    <div class="slideelist">
+                    <img data-img="imagestapestry/1.jpg" data-desc="" />
+                    <img data-img="imagestapestry/0.jpg" data-desc="" />
+                    <img data-img="imagestapestry/2.jpg" data-desc="" />
+                    <img data-img="imagestapestry/8.jpg" data-desc="" />
+                    <img data-img="imagestapestry/3.jpg" data-desc="" />
+                    <img data-img="imagestapestry/4.jpg" data-desc="" />
+                    <img data-img="imagestapestry/5.jpg" data-desc="" />
+                    <img data-img="imagestapestry/6.jpg" data-desc="" />
+                    <img data-img="imagestapestry/7.jpg" data-desc="" />
+
+
+                </div>
+                 <!-- the visble slide with the image -->
+                <div class="slidee">
+                    <img src="#" />
+                </div>
+
+              </div>
+      <!-- arrow to go left -->
+      <div class="arrow arrow-left">
+      </div>
+      <!-- arrow to go right -->
+      <div class="arrow arrow-right">
+      </div>
+
+          </div>
+              <div class="draghand"></div>
+              <div class="close-button"></div>
+              <div class="about-project">About</div>
+
+          </div>
+
+         <div class="popup" id="popup-almanac">
+
+              <div class="about-text">
+                Almanac of Communication Tools
+                <br>
+                <br>
+              Alongside the printed page, written language is represented in various forms. Public space is filled with messages of all kinds written by the individuals that inhabit it. Through these interventions of self-expression, different forms of written and oral language have been born that go unaccounted for in the history of communication. Each of these methods has its own formal and conceptual qualities, as well as its own history and background. These tools represent an untold history of graphic design that has existed and developed alongside the popular communication tools of print publishing, radio, imagestelevision and the internet.
+              <br>
+              <br>
+              <small>Royal Academy of Art, 2018<br>Publication</small>
+              </div>
+              <div class="slideeshow">
+
+                  <div class="content">
+                      <!-- the list of slides in this slideshow (this is not visible) -->
+                      <div class="slideelist">
+                      <img data-img="imagesalmanac/almanac1.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac3.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac4.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac5.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac7.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac6.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac10.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac11.jpg" data-desc="" />
+                      <img data-img="imagesalmanac/almanac2.jpg" data-desc="" />
+
+
+                  </div>
+                   <!-- the visble slide with the image -->
+                  <div class="slidee">
+                      <img src="#" />
+                  </div>
+
+                </div>
+        <!-- arrow to go left -->
+        <div class="arrow arrow-left">
+        </div>
+        <!-- arrow to go right -->
+        <div class="arrow arrow-right">
+        </div>
+
+            </div>
+                <div class="draghand"></div>
+                <div class="close-button"></div>
+                <div class="about-project">About</div>
+
+           </div>
+
+           <div class="popup" id="popup-gloves">
+
+                <div class="about-text">
+                  In my freetime...
+                  <br>
+                  <br>
+                  ...I like to photograph lonely gloves I find on my way.
+                  Someone once made me think of how many of them are laying around all alone and abandoned during winter season.
+                  While framing the solitary hand that almost looks in a cry for help, my mind wonders on the other glove; the ‘lucky’ one. I like to imagine it somewhere warmer, still safe in someone’s pocket thinking about its lost companion…
+                  <br>Friends heard about this passion of mine and started sending me pictures of their findings.
+                <br>
+                <br>
+                <small>Ongoing project</small>
+                </div>
+                <div class="slideeshow">
+
+                    <div class="content">
+                        <!-- the list of slides in this slideshow (this is not visible) -->
+                        <div class="slideelist">
+                        <img data-img="gloves/1.jpg" data-desc="" />
+                        <img data-img="gloves/2.jpg" data-desc="" />
+                        <img data-img="gloves/3.jpg" data-desc="" />
+                        <img data-img="gloves/4.jpg" data-desc="" />
+                        <img data-img="gloves/5.jpg" data-desc="" />
+                        <img data-img="gloves/6.jpg" data-desc="" />
+                        <img data-img="gloves/7.jpg" data-desc="" />
+                        <img data-img="gloves/8.jpg" data-desc="" />
+                        <img data-img="gloves/9.jpg" data-desc="" />
+                        <img data-img="gloves/10.jpg" data-desc="" />
+                        <img data-img="gloves/11.jpg" data-desc="" />
+                        <img data-img="gloves/12.jpg" data-desc="" />
+                        <img data-img="gloves/13.jpg" data-desc="" />
+                        <img data-img="gloves/14.jpg" data-desc="" />
+                        <img data-img="gloves/15.jpg" data-desc="" />
+                        <img data-img="gloves/16.jpg" data-desc="" />
+                        <img data-img="gloves/17.jpg" data-desc="" />
+                        <img data-img="gloves/19.jpg" data-desc="" />
+                        <img data-img="gloves/20.jpg" data-desc="" />
+                        <img data-img="gloves/21.jpg" data-desc="" />
+                        <img data-img="gloves/22.jpg" data-desc="" />
+                        <img data-img="gloves/23.jpg" data-desc="" />
+                        <img data-img="gloves/24.jpg" data-desc="" />
+                        <img data-img="gloves/25.jpg" data-desc="" />
+                        <img data-img="gloves/26.jpg" data-desc="" />
+                        <img data-img="gloves/27.jpg" data-desc="" />
+
+                    </div>
+                     <!-- the visble slide with the image -->
+                    <div class="slidee">
+                        <img src="#" />
+                    </div>
+
+                  </div>
+           <!-- arrow to go left -->
+           <div class="arrow arrow-left">
+           </div>
+           <!-- arrow to go right -->
+           <div class="arrow arrow-right">
+           </div>
+
+              </div>
+                  <div class="draghand"></div>
+                  <div class="close-button"></div>
+                  <div class="about-project">About</div>
+
+             </div>
+
+            <div class="popup" id="popup-pina">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/CIrRR48s5As" frameborder="0"></iframe>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+            </div>
+
+            <div class="popup" id="popup-lapsang">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/q4opY4JzsaQ" frameborder="0"></iframe>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+            </div>
+
+            <div class="popup" id="popup-francis">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/UtWUqBR1Eww" frameborder="0"></iframe>
+               <div class="draghand"></div>
+               <div class="close-button"></div>
+            </div>
+
+            <div class="popup" id="popup-tools">
+
+                    <div class="about-text">
+                      tools.FM
+                      <br>
+                      <br>
+                      Poster done in occasion of a book launch from Graphic Design students at <a href="https://page-not-found.nl/" target="_blank">Page Not Found</a> on the 28th September 2018.
+                      <br>
+                      <br>
+                      Done in collaboration with Seojeong Yoon, Selina Landis and <a href="http://zahari.nl" target="_blank">Zahari Dimitrov</a>.
+                      <br>
+                      <br>
+                      <small>Royal Academy of Art, 2018<br>A3 risograph posters</small>
+                      </div>
+
+                        	<img class="artwork" data-img="images/tools.jpg"/>
+                           <div class="draghand"></div>
+                           <div class="close-button"></div>
+                           <div class="about-project-gif">About</div>
+                        </div>
+
+
+      </div>
+
+
+
+
+
+
+  <div class="panel">
+
+           <body onload="startTime()">
+           <div id="txt"></div>
+
+           <img class="battery" src="images/libra+.png"/>
+
+
+          <div class="inner">
+            <div class="row">
+      <div class="column">
+             <div class="column1">
+               <img class="snake" src="images/snake.png"/>
+        <p>Anna Moschioni <br>Born in Italy (12/10/1996)<br>Currently Studying Graphic Design at <br>the <a href="https://www.kabk.nl/" target="_blank">Royal Academy of Art, The Hague</a>.</p>
+               </div>
+      </div>
+      <div class="column">
+       <div class="column2">
+        <p>Contact<br><a href="mailto:moschionianna@gmail.com">moschionianna@gmail.com</a><br>NL (+31) 624143047<br>IT (+39) 3451856874</p>
+       </div>
+      </div>
+    </div>
+          </div>
+      </div>
+      <p class="slide">
+          <a href="#" class="btn-slide closed">About</a>
+          <a href="#" class="btn-slide opened">Close</a>
+      </p>
+
+  </div>
+
+
+
+
+
+  <!-- NO HTML LAYOUT BELOW THIS POINT! -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="index.js"></script>
+
+
+<!-- the body ends here -->
+</body>
+</html>
+<!-- end of the html document, nothing to see here, move along -->

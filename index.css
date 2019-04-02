@@ -1,0 +1,760 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+
+@font-face {
+  font-family: 'Life';
+  src:  url('fonts/Life.ttf') format('truetype');
+}
+
+body,html {
+    height: 100%;
+    font-family: Arial;
+    background-color: white;
+    top: 30vw;
+    left: 10vw;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+
+Every panel has a class and an id
+I used the class to define the styles that apply to all four panels:
+  - absolute position
+  - width and height
+
+Then I used the id's to specify what is different for every panel:
+  - background-color
+  - top, left, bottom or right position
+
+*/
+
+
+#popup-unstructuredstructures {
+	position: absolute;
+  top: 3vw;
+  left: 20vw;
+  width: 45%;
+}
+
+#popup-charm {
+  position: absolute;
+  top: 3vw;
+  left: 40vw;
+  width: 45%;
+}
+
+#popup-tele {
+	position: absolute;
+  top: 6vw;
+  left: 18vw;
+  width: 55%;
+
+}
+
+#popup-emiliemuller {
+  position: absolute;
+  top: 3vw;
+  left: 12vw;
+  width: 55%;
+}
+
+#popup-loveinthetimeofcholera {
+  position: absolute;
+  top: 5.5vw;
+  left: 20vw;
+  width: 45%;
+}
+
+#popup-postcards {
+	position: absolute;
+  top: 7vw;
+  left: 25vw;
+  width: 50%;
+}
+
+#popup-irancomicbook {
+  position: absolute;
+  top: 4.5vw;
+  left: 15vw;
+  width: 65%;
+}
+
+#popup-calendar {
+  position: absolute;
+  top: 4vw;
+  left: 13vw;
+  width: 30%;
+}
+
+#popup-almanac {
+  position: absolute;
+  top: 4vw;
+  left: 10.5vw;
+  width: 67%;
+}
+
+#popup-annadiva {
+	position: absolute;
+  top: 5vw;
+  left: 10vw;
+  width: 37%;
+}
+
+#popup-trudy {
+	position: absolute;
+  top: 2.5vw;
+  left: 8vw;
+  width: 30%;
+
+
+}
+
+#popup-exquisite {
+  position: absolute;
+  top: 10vw;
+  left: 15vw;
+  width: 33vw;
+}
+
+#popup-royalchess {
+  position: absolute;
+  top: 6vw;
+  left: 30vw;
+  width: 27vw;
+}
+
+#popup-ar {
+  position: absolute;
+  top: 4vw;
+  left: 30vw;
+  width: 25vw;
+}
+
+#popup-pina {
+  position: absolute;
+  top: 6vw;
+  left: 31vw;
+  width: 421px;
+  height: 316px;
+}
+
+#popup-francis {
+  position: absolute;
+  top: 10vw;
+  left: 50vw;
+  width: 420px;
+  height: 315px;
+}
+
+#popup-lapsang {
+  position: absolute;
+  top: 10vw;
+  left: 50vw;
+  width: 420px;
+  height: 315px;
+}
+
+
+#popup-tapestry {
+  position: absolute;
+  top: 13vw;
+  left: 40vw;
+  width: 40%;
+}
+
+#popup-gloves {
+	position: absolute;
+  top: 6vw;
+  left: 18vw;
+  width: 25vw;
+
+}
+
+#popup-things {
+	position: absolute;
+  top: 6vw;
+  left: 18vw;
+  width: 25vw;
+
+}
+
+#popup-tools {
+	position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 25vw;
+
+}
+
+#popup-ariane {
+	position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 40vw;
+
+}
+
+#popup-sexes {
+	position: absolute;
+  top: 8vw;
+  left: 20vw;
+  width: 36vw;
+
+}
+
+#unstructuredstructures {
+	position: absolute;
+	top: 10vw;
+	right: 2vw;
+}
+
+
+#emiliemuller {
+	position: absolute;
+	top: 3vw;
+	right: 2vw;
+}
+
+#postcards {
+	position: absolute;
+	top: 17vw;
+	right: 2vw;
+}
+
+#sexes {
+	position: absolute;
+	top: 3vw;
+	right: 23vw;
+}
+
+#loveinthetimeofcholera {
+	position: absolute;
+	top: 24vw;
+	right: 2vw;
+}
+
+#calendar {
+	position: absolute;
+	top: 31vw;
+	right: 2vw;
+}
+
+#gloves {
+	position: absolute;
+	top: 10vw;
+	right: 16vw;
+}
+
+
+#tele {
+	position: absolute;
+  top: 3vw;
+  right: 16vw;
+}
+
+#tools {
+	position: absolute;
+	top: 31vw;
+	right: 23vw;
+  background-image: url(images/tools.png);
+
+}
+
+#ariane {
+	position: absolute;
+	top: 38vw;
+	right: 2vw;
+}
+
+#annadiva {
+	position: absolute;
+	top: 17vw;
+	right: 9vw;
+}
+
+#charm {
+  position: absolute;
+  top: 10vw;
+  right: 9vw;
+}
+
+#almanac {
+	position: absolute;
+	top: 24vw;
+	right: 9vw;
+}
+
+#irancomicbook {
+	position: absolute;
+	top: 31vw;
+	right: 9vw;
+}
+
+#trudy {
+	position: absolute;
+	top: 10vw;
+	right: 23vw;
+}
+
+#exquisite {
+  position: absolute;
+  top: 3vw;
+	right: 9vw;
+}
+
+#lapsang {
+  position: absolute;
+  top: 24vw;
+	right: 16vw;
+}
+
+#tapestry {
+  position: absolute;
+  top: 17vw;
+	right: 16vw;
+}
+
+#royalchess {
+  position: absolute;
+  top: 24vw;
+  right: 23vw;
+  background-image: url(images/royal.png);
+}
+
+#ar {
+  position: absolute;
+  top: 17vw;
+  right: 23vw;
+}
+
+#things {
+  position: absolute;
+  top: 38vw;
+  right: 9vw;
+}
+
+
+#pina {
+  position: absolute;
+  top: 38vw;
+  right: 16vw;
+  background-image: url(images/pina.jpg);
+}
+#ar {
+  position: absolute;
+  top: 17vw;
+  right: 23vw;
+}
+
+
+#francis {
+  position: absolute;
+  top: 31vw;
+  right: 16vw;
+  background-image: url(images/francis.jpg);
+}
+
+#ar {
+  background-image: url(images/ar.png);
+}
+
+#trudy {
+  background-image: url(images/papyrus.png);
+}
+
+#lapsang {
+  background-image: url(images/lapsang2.jpg);
+}
+
+.inspitext {
+  font-family: Times;
+  color: white;
+  font-size: 1vw;
+  padding: 0.2vw;
+  left: 0.5vw;
+}
+
+/* popup styling */
+
+.popup {
+	position: absolute;
+	width: 30%;
+  border: 0.1vw solid yellow;
+	background-color: rgb(213, 214, 215);
+	display: none;
+	border-radius: 0.2vw;
+  z-index: 999 !important;
+}
+.popup.slideshow {
+  border-radius: 0.2vw;
+  }
+
+.popup img { display: block }
+.popup h1 {
+  top: 4vw;
+	font-size: 0.8vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+  padding-top: 2vw;
+  font-style: italic;
+
+}
+
+.popup p {
+	top: 4vw;
+	font-size: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+  padding-bottom:2vw;
+  padding-top: 0.5vw;
+}
+
+.popup .artwork {
+	width: 100%;
+}
+
+.close-button {
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	right: 0.4vw;
+	top: 0.4vw;
+	background: url("assets/button_close.png") no-repeat;
+  border: 0.06vw solid black;
+  background-color: yellow;
+  border-radius: 0.2vw;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.about-project {
+	height: 2vw;
+  font-size: 1vw;
+  padding: 0.3vw;
+	position: absolute;
+	left: 0.4vw;
+	top: 0.4vw;
+  border: 0.06vw solid black;
+  background-color: white;
+  border-radius: 0.2vw;
+	background-size: cover;
+	cursor: pointer;
+}
+
+
+.about-project-gif {
+  height: 2vw;
+  font-size: 1vw;
+  padding: 0.3vw;
+  position: absolute;
+  left: 0.4vw;
+  top: 0.4vw;
+  border: 0.06vw solid black;
+  background-color: white;
+  border-radius: 0.2vw;
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+.icon {
+  position: absolute;
+  width: 5.1vw;
+  height: 4vw;
+  padding-top: calc(4.5vw - 0em);
+  text-decoration: none;
+  text-align: center;
+
+  background-position: 50% 4px;
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+}
+
+.icon.folder {
+	position: absolute;
+  background-image: url(images/folder.svg);
+	text-align: center;
+	font-size: 0.71vw;
+  color: black;
+  padding-top: 3.9vw;
+
+}
+
+.info {
+  position: absolute;
+  top: 1vw;
+}
+
+.panel {
+    position: absolute;
+    top: 0vw;
+		background: yellow;
+    border-bottom: 0.01vw solid black;
+		height: 2vw;
+    width:100%;
+    float:left;
+    box-sizing: border-box;
+    z-index: 999 !important;
+    overflow: hidden;
+    line-height: 1vw;
+
+	}
+
+	.panel p {
+			line-height: 150%;
+	}
+
+
+.btn-slide {
+  position: absolute;
+  top: 0.3vw;
+  padding-left: 0.7vw;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #000;
+  z-index: 999 !important;
+}
+
+.btn-slide:hover {
+ text-decoration: underline;
+}
+
+.btn-slide.opened {
+		display: none;
+    z-index: 1;
+}
+
+.slide.active .btn-slide.closed {
+		display: none;
+}
+
+.slide.active .btn-slide.opened {
+		display: block;
+    z-index: 1;
+}
+/**/
+
+
+/* Create two equal columns that floats next to each other */
+
+.battery {
+  margin-top: 0.3vw;
+  margin-left: 80vw;
+  width: 11.6vw;
+}
+
+.a {
+  color: blue;
+  text-decoration: none;
+}
+
+.column1 {
+    float: left;
+    font-family: Times;
+    font-size: 1.65vw;
+    width: 50%;
+    margin-top: 4vw;
+    padding: 1vw;
+    position: absolute;
+}
+
+.column1 p {
+     line-height: 1.9vw;
+}
+
+.column2 p {
+     line-height: 1.9vw;
+}
+
+.column2 {
+    margin-left: 50%;
+    font-family: Times;
+    font-size: 1.65vw;
+    width: 50%;
+    margin-top: 4vw;
+    padding: 1vw;
+    position: absolute;
+
+}
+
+.draghand {
+  position: absolute;
+  width: 100%;
+  height: 4vw;
+  top: 0vw;
+}
+
+
+.content {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.slide2 {
+  width: 100%;
+}
+
+.slide2 img {
+  width: 100%;
+}
+
+#txt {
+  position: relative;
+  float: right;
+  padding-top: 0.4vw;
+  padding-right: 4.6vw;
+  font-size: 1vw;
+  color: #000;
+
+}
+
+.tooltip {
+  width: 9vw;
+  height: 2vw;
+  font-size: 1vw;
+  padding-top: 0.3vw;
+  padding-left: 0.5vw;
+  border: 0.06vw solid black;
+  background-color: white;
+  border-radius: 0.2vw;
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    font-size: 1.5vw;
+    text-align: left;
+    padding: 2vw;
+    width: 56vw;
+    height: 40vw;
+    border-radius: 0.5vw;
+    border:0.06vw solid black;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    margin-top: -1vw;
+    margin-left: -9vw;
+    line-height: 1.6vw;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+
+/* SLIDESHOW CSS */
+
+.about-text {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(213, 214, 215);
+  font-family: Times;
+  display: none;
+  border-radius: 0.2vw;
+  padding-top: 2.8vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  font-size: 1.4vw;
+  line-height: 1.5vw;
+  padding-bottom: 1vw;
+}
+
+
+.slideeshow {
+  width: 100%;
+  border-radius: 0.2vw;
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  vertical-align: middle;
+  width: 2vw;
+  height: 2vw;
+  top: 48%;
+  margin: 0.5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* prevent background from selecting */
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+
+.arrow-left {
+  background-image: url(images/arrow-l.png);
+  left: 0vw;
+
+}
+
+.arrow-right {
+  background-image: url(images/arrow-r.png);
+  right: 0vw;
+}
+
+.content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.slidee {
+
+    margin: 0;
+    position: relative;
+    padding: 0;
+    top: 0vw;
+}
+
+.slideelist {
+  display: none;
+}
+.slidee {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.slidee img {
+  width: 100%;
+  margin-bottom: -6px;
+}
+
+.background {
+  position: fixed;
+  width: 32vw;
+  top: 7vw;
+  left: 33%;
+}
+
+.snake {
+  position: absolute;
+  width: 7.5vw;
+  left: 35vw;
+}
+
+/* END SLIDESHOW CSS */
