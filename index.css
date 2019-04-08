@@ -87,7 +87,7 @@ Then I used the id's to specify what is different for every panel:
   position: absolute;
   top: 4.5vw;
   left: 15vw;
-  width: 65%;
+  width: 50%;
 }
 
 #popup-calendar {
@@ -101,7 +101,7 @@ Then I used the id's to specify what is different for every panel:
   position: absolute;
   top: 4vw;
   left: 10.5vw;
-  width: 67%;
+  width: 48%;
 }
 
 #popup-annadiva {
@@ -169,7 +169,7 @@ Then I used the id's to specify what is different for every panel:
 #popup-tapestry {
   position: absolute;
   top: 13vw;
-  left: 40vw;
+  left: 36vw;
   width: 40%;
 }
 
