@@ -143,8 +143,8 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-pina {
   position: absolute;
-  top: 10vw;
-  left: 27vw;
+  top: 6vw;
+  left: 31vw;
   width: 421px;
   height: 316px;
 }
@@ -160,8 +160,8 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-francis {
   position: absolute;
-  top: 4vw;
-  left: 20vw;
+  top: 10vw;
+  left: 50vw;
   width: 420px;
   height: 315px;
 }
@@ -373,6 +373,7 @@ Then I used the id's to specify what is different for every panel:
   top: 17vw;
   right: 23vw;
 }
+
 
 #francis {
   position: absolute;
