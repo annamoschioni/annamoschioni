@@ -177,9 +177,9 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-tapestry {
   position: absolute;
-  top: 13vw;
-  left: 40vw;
-  width: 40%;
+  top: 9vw;
+  left: 20vw;
+  width: 46%;
 }
 
 #popup-gloves {
