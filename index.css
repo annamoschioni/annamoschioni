@@ -64,7 +64,7 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-emiliemuller {
   position: absolute;
-  top: 3vw;
+  top: 5.5vw;
   left: 12vw;
   width: 50%;
 }
@@ -92,9 +92,9 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-calendar {
   position: absolute;
-  top: 4vw;
+  top: 5.5vw;
   left: 13vw;
-  width: 30%;
+  width: 28%;
 }
 
 #popup-almanac {
@@ -129,7 +129,7 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-royalchess {
   position: absolute;
-  top: 6vw;
+  top: 6.5vw;
   left: 27vw;
   width: 27vw;
 }
@@ -160,7 +160,7 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-francis {
   position: absolute;
-  top: 10vw;
+  top: 12.5vw;
   left: 45vw;
   width: 420px;
   height: 315px;
@@ -168,7 +168,7 @@ Then I used the id's to specify what is different for every panel:
 
 #popup-lapsang {
   position: absolute;
-  top: 10vw;
+  top: 11vw;
   left: 50vw;
   width: 420px;
   height: 315px;
@@ -178,7 +178,7 @@ Then I used the id's to specify what is different for every panel:
 #popup-tapestry {
   position: absolute;
   top: 9vw;
-  left: 20vw;
+  left: 22vw;
   width: 46%;
 }
 
