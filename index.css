@@ -442,14 +442,12 @@ Then I used the id's to specify what is different for every panel:
 }
 
 .close-button {
-	width: 2vw;
-	height: 2vw;
+	width: 1.7vw;
+	height: 1.7vw;
 	position: absolute;
 	right: 0.4vw;
 	top: 0.4vw;
 	background: url("assets/button_close.png") no-repeat;
-  border: 0.06vw solid black;
-  background-color: yellow;
   border-radius: 0.2vw;
 	background-size: cover;
 	cursor: pointer;
@@ -724,13 +722,15 @@ Then I used the id's to specify what is different for every panel:
 
 
 .arrow-left {
-  background-image: url(images/arrow-l.png);
+  background-image: url(images/arrowleft.png);
+  width: 1.5vw;
   left: 0vw;
 
 }
 
 .arrow-right {
-  background-image: url(images/arrow-r.png);
+  background-image: url(images/arrowright.png);
+  width: 1.5vw;
   right: 0vw;
 }
 
